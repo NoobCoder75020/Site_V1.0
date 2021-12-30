@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+	color: #FF0000;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 30px;
+}
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 500px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: #EE870B;
+	margin-right: 10px;
+	border-bottom: 1px solid #EE870B;
+	padding-bottom: 5px;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url(https://images.assetsdelivery.com/compings_v2/miastendal/miastendal2103/miastendal210300773.jpg);
+	background-size: cover;
+	color: #ee870b;
+	padding: 40px;
+}
+header h1{
+	font-size: 50px;
+}
+header h4{
+	font-family: 'Merryweather', sans-serif;
+	margin-top: -20px;
+	font-size: 25px;
+	text-align: center;
+	border-bottom: 1px solid #ee870b;
+}
+header button{
+	padding: 10px 20px;
+	background-color: blueviolet;
+	color: #000;
+	border: none;
+	font-size: 20px;
+	font-family: 'Merryweather', sans-serif;
+	outline: none;
+	cursor: pointer;
+}
+
+.main{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.main .content .card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.main .content .card .left{
+	flex: 0 0 30%;
+	padding: 20px;
+	background-color:black ;
+	color: white;
+}
+.main .content .card.right{
+	flex: 0 0 70%;
+}
+
+.main .content .card .right img{
+	height: 200px;
+	width: 300px;
+	margin-top: 10px;
+}
+
+footer{
+	margin-top: 40px;
+	border-top: 5px solid #6f6f6f;
+	background-color: black;
+	color: red;
+	padding: 30px 100px;
+}
+footer h1{
+	font-family: 'Merryweather', sans-serif;
+	border-bottom: 1px solid #fff;
+	width: 10%;
+	padding-bottom: 5px;
+}
+footer .contacts{
+	margin-top: 10px;
+	color: #6f6f6f;
+}
+footer .contacts .contact{
+	padding: 10px;
+}
+footer #
+
+@media screen and (max-width: 680px){
+	nav .onglets{
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+}
